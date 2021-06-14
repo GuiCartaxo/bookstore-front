@@ -1,0 +1,35 @@
+.title {
+    font-weight: bold;
+}
+
+.home {
+    background-color: #3b3b3b;
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.title {
+    color: #FFF;
+}
+
+.subtitle {
+    color: #FFF;
+}
+
+@media (max-width: 700px)
+{
+    .home {
+        background-color: #3b3b3b;
+        width: 70%;
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .home {
+        background-color: #3b3b3b;
+        width: 80%;
+        margin: 1rem auto;
+    }
+}
