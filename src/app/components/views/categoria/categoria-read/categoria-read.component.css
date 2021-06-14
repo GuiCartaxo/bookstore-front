@@ -14,6 +14,28 @@
     color: rgb(185, 185, 185);
 }
 
+.content button {
+    margin-bottom: 1rem;
+}
+
 .table {
     width: 100%;
+}
+
+.livros {
+    margin-left: .3rem;
+    color: rgb(0, 48, 48);
+}
+
+.edit {
+    color: chocolate;
+}
+
+.delete {
+    color: brown;
+    margin-left: .5rem;
+}
+
+.mat-header {
+    width: 5rem;
 }
