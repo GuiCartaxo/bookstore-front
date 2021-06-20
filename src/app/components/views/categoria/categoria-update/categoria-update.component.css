@@ -1,0 +1,43 @@
+form {
+    text-align: center;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+}
+
+form h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.form {
+    width: 100%;
+}
+
+.form input::placeholder {
+    color: #FFF;
+}
+
+.form textarea::placeholder {
+    color: #FFF;
+}
+
+mat-form-field mat-label {
+    color: #FFF;
+    font-weight: 500;
+}
+
+.mat-input-element:disabled, .mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix::after {
+    color: #FFF; 
+}
+
+.buttons {
+    width: 100%;
+    text-align: start;
+}
+
+.buttons button {
+    margin-right: .5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
